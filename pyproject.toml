@@ -15,6 +15,7 @@ long_description = "An interactive tool to sync files and folders between two de
 author = "MANOJKUMBI"
 author_email = "kumarswamy2803@gmail.com"
 readme = "README.md"
+icon = "mirrorsync/resources/icon/logo.png"
 sources = ['mirrorsync']
 requires = [
     'watchdog',
