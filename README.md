@@ -32,7 +32,7 @@ If you have Python and `pipx` installed, you can build the tool directly from th
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/kumaraswamys28/mirrorsync.git](https://github.com/kumaraswamys28/mirrorsync.git)
+git clone https://github.com/kumaraswamys28/mirrorsync.git
 
 # 2. Navigate into the project folder
 cd mirrorsync
