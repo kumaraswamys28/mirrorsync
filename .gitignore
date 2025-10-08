@@ -1,0 +1,15 @@
+# Briefcase build artifacts
+build/
+dist/
+linux/
+windows/
+macOS/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+env/
+venv/
