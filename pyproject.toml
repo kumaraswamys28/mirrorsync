@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.briefcase]
+project_name = "MirrorSync"
+version = "1.1.0" # Bumped version
+bundle = "com.kumars"
+license = { file = "LICENSE" }
+
+[tool.briefcase.app.mirrorsync]
+formal_name = "MirrorSync"
+description = "A command-line tool to sync files between devices on a network."
+long_description = "An interactive tool to sync files and folders between two devices on your local network in real-time."
+author = "MANOJKUMBI"
+author_email = "kumarswamy2803@gmail.com"
+readme = "README.md"
+sources = ['mirrorsync']
+requires = [
+    'watchdog',
+    'questionary', # Add the new dependency here
+]
+console_scripts = [
+    "mirrorsync = mirrorsync.cli:main" # The single entry point
+]
